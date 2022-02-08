@@ -1,7 +1,6 @@
 const { User, Thought } = require("../models");
 
 const userController = {
-  //get all users
   getAllUsers(req, res) {
     User.find({})
       .populate({
@@ -15,7 +14,6 @@ const userController = {
         res.status(400).json(err);
       });
   },
-  // get specific user
   getUserById({ params }, res) {
     User.findOne({ _id: params.id })
       .populate([

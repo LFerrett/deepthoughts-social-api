@@ -2,7 +2,7 @@
 
 ## Description
 
-Deep thoughts is a custom API for a social network web application. Users can share their thoughts, react to friends’ thoughts, and create a friend list. This was built using Express.js for routing, a MongoDB database, and the Mongoose ODM. Routes were tested in Insomnia.
+Deep Thoughts is a custom API for a social network web application. Users can share their thoughts, react to friends’ thoughts, and create a friend list. This was built using Express.js for routing, a MongoDB database, and the Mongoose ODM. Routes were tested in Insomnia.
 
 ## Table of Contents
 
